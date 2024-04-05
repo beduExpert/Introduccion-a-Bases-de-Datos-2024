@@ -1,1 +1,1 @@
-# Introducció a Bases de Datos 2024
+# Introducción a Bases de Datos 2024
