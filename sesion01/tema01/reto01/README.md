@@ -22,4 +22,4 @@ Usando la base de datos `tienda`, muestra la descripción de las tablas `Pedidos
 ---
 
 
-[`Anterior`](../ejemplo01/README.md) | [`Siguiente`](../ejemplo02/README.md)
+[`Anterior`](../ejemplo01/README.md) | [`Siguiente`](../../tema02/README.md)
