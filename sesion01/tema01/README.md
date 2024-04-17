@@ -1,6 +1,6 @@
 ### Estructura de una base de datos
 
-<img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="50%" align="left" hspace=20>
+<img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="50%" align="right" hspace=30>
 
 👉 Una base de datos relacional es un conjunto organizado de datos que se almacena y se accede mediante un software de gestión de bases de datos, conocido como servidor de bases de datos. 
 
