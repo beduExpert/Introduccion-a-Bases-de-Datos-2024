@@ -84,4 +84,4 @@
    La instrucción `DESCRIBE` es tu amiga. La usaremos cada que necesitemos consultar los registros de una tabla, pues nos permitirá saber qué campos tiene y su tipo.
 
 
-[`Anterior`](../README.md) | [`Siguiente`](reto01/README.md)
+[`Anterior`](../README.md) | [`Siguiente`](../reto01/README.md)
