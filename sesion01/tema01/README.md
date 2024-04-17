@@ -5,15 +5,15 @@
 *Recordemos del prework que...*
 
 
-👉 Una base de datos relacional es un conjunto organizado de datos que se almacena y se accede mediante un software de gestión de bases de datos, conocido como servidor de bases de datos. 
+👉 Una **base de datos relacional** es un conjunto organizado de datos que se almacena y se accede mediante un **software de gestión de bases de datos, conocido** como **servidor de bases de datos**. 
 
-👉 El servidor de bases de datos gestiona y proporciona acceso seguro a los datos almacenados.
+👉 El **servidor de bases de datos** gestiona y proporciona acceso seguro a los datos almacenados.
 
-👉 El esquema de una base de datos relacional define la estructura y la organización de los datos. 
+👉 El **esquema** de una base de datos relacional define la estructura y la organización de los datos. 
 
-👉 Incluye la descripción de las tablas que componen la base de datos, así como también las relaciones entre estas tablas. 
+👉 Incluye la descripción de las **tablas** que componen la base de datos, así como también las relaciones entre estas tablas. 
 
-👉 Cada tabla en el esquema representa una entidad o un concepto del mundo real y contiene filas y columnas que almacenan los datos.
+👉 Cada tabla en el esquema representa una entidad o un concepto del mundo real y contiene **filas** y **columnas** que almacenan los datos.
 
 👉 Las tablas son la estructura básica de una base de datos relacional. 
 
