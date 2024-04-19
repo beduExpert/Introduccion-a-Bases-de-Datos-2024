@@ -7,7 +7,7 @@ Utilizar eficazmente sistemas de gestión de bases de datos relacionales y no re
 ## 📚 Contenido
 
 1. [`Sesión 01: Introducción a SQL`](sesion01/README.md)
-1. Agrupamientos
+1. [`Sesión 02: Agrupamientos`](sesion02/README.md)
 1. Subconsultas
 1. Cruces
 1. Diseño básico de bases relacionales
