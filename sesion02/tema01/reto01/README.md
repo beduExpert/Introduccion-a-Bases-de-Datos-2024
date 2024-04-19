@@ -1,4 +1,4 @@
-[`Introducción a Bases de Datos`](../../../README.md) > [`Sesión 01`](../../README.md) > [`Funciones de agregación`](../README.md)
+[`Introducción a Bases de Datos`](../../../README.md) > [`Sesión 02`](../../README.md) > [`Funciones de agregación`](../README.md)
 
 #### Reto 1
 
@@ -22,7 +22,7 @@ Precio promedio de los productos en stock.
 Número total de productos vendidos.
 
 **Consulta 4:**
-Número promedio de pedidos del usuario 10.
+Número de pedidos del usuario 10.
 
 **Consulta 5:**
 Precio máximo de pedidos hechos el 20 de mayo de 2023. 
