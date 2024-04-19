@@ -4,7 +4,7 @@
 
 ### 🌿 Presentación 
 
-En esta sesión, los estudiantes aprenderán cómo realizar operaciones de agrupamiento en conjuntos de datos utilizando SQL, así como el uso de la cláusula HAVING para filtrar resultados de agrupamiento.
+En esta sesión, los estudiantes aprenderán cómo realizar operaciones de agrupamiento en conjuntos de datos utilizando SQL, así como el uso de la cláusula `HAVING` para filtrar resultados de agrupamiento.
 
 ### 🎯 Objetivos
 
