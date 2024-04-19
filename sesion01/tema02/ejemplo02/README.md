@@ -19,11 +19,6 @@
    FROM Usuarios;
    ```
    <details><summary>Salida</summary>
-   <html>
-   <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Data</title>
-   </head>
-   <body>
    <table border=1>
    <tr>
    <td bgcolor=silver class='medium'>nombre</td>
@@ -130,7 +125,6 @@
    <td class='normal' valign='top'>daniel@example.com</td>
    </tr>
    </table>
-   </body></html>
    </details>
 
 2. Ahora supongamos que queremos seleccionar todos los campos de la tabla Usuarios. Para ello, ejecutamos la siguiente consulta.
@@ -140,11 +134,6 @@
    FROM Usuarios;
    ```
    <details><summary>Salida</summary>
-   <html>
-   <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Data</title>
-   </head>
-   <body>
    <table border=1>
    <tr>
    <td bgcolor=silver class='medium'>user_id</td>
@@ -335,7 +324,6 @@
    <td class='normal' valign='top'>2024-08-09</td>
    </tr>
    </table>
-   </body></html>
    </details>
 
 3. De forma general, las instrucciones para realizar consultas hasta este punto y que se pueden aplicar con cualquier otro gestor de bases de datos son:
