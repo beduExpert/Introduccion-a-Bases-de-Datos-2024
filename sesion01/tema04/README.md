@@ -1,4 +1,6 @@
-### Ordenamientos
+[`Introducción a Bases de Datos`](../../README.md) > [`Sesión 01`](../README.md)
+
+### 1.4. Ordenamientos
 
 <img src="https://images.pexels.com/photos/332835/pexels-photo-332835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="50%" align="right" hspace=30>
 
@@ -19,5 +21,12 @@ ORDER BY <campo> [DESC|ASC];
 👉 Puedes ordenar los resultados en orden ascendente (`ASC`) o descendente (`DESC`) según los valores de una o más columnas. 
 
 👉 `ASC` es la abreviatura de "ascendente" y se puede omitir, ya que es el orden predeterminado si no se especifica ningún otro. 
+
+#### 🧐 Actividades
+
+- [`Ejemplo 4`](ejemplo04/README.md)
+- [`Reto 4`](reto04/README.md)
+
+<br/>
 
 [`Anterior`](../tema02/reto03/README.md) | [`Siguiente`](ejemplo04/README.md)
