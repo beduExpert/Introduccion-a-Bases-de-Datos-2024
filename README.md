@@ -1,10 +1,12 @@
 # Introducción a Bases de Datos 2024
 
-## Objetivos
+## 🎯 Objetivo del curso
 
-## Contenido
+Utilizar eficazmente sistemas de gestión de bases de datos relacionales y no relacionales, mediante el uso de SQL y MongoDB.				
 
-1. [Introducción a SQL](sesion01/README.md)
+## 📚 Contenido
+
+1. [`Sesión 01: Introducción a SQL`](sesion01/README.md)
 1. Agrupamientos
 1. Subconsultas
 1. Cruces

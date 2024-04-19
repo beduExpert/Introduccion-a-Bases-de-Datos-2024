@@ -1,4 +1,6 @@
-### Filtrado básico
+[`Introducción a Bases de Datos`](../../README.md) > [`Sesión 01`](../README.md)
+
+### 1.3. Filtrado básico
 
 <img src="https://images.pexels.com/photos/5076516/pexels-photo-5076516.jpeg?auto=compress&cs=tinysrgb&w=800" width="50%" align="right" hspace=30>
 
@@ -24,5 +26,12 @@ WHERE <condiciones>;
 👉 En resumen, la cláusula `SELECT` nos permite elegir las columnas que queremos ver en los resultados, mientras que la cláusula `FROM` nos indica de dónde provienen esos datos, es decir, la tabla o tablas en las que se encuentran. 
 
 👉 Esto nos permite obtener resultados más precisos y relevantes para nuestras necesidades.
+
+#### 🧐 Actividades
+
+- [`Ejemplo 3`](ejemplo03/README.md)
+- [`Reto 3`](reto03/README.md)
+
+<br/>
 
 [`Anterior`](../tema02/reto02/README.md) | [`Siguiente`](ejemplo03/README.md)

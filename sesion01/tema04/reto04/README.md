@@ -24,4 +24,4 @@ Obtener una lista de detalles de pedidos ordenados por el identificador del pedi
 **¡Con esto concluimos el material de la Sesión 1!**
 
 
-[`Anterior`](../ejemplo04/README.md) | [`Siguiente`](#)
+[`Anterior`](../ejemplo04/README.md) | [`Siguiente`](../../../sesion02/README.md)
