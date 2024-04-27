@@ -8,7 +8,7 @@ Utilizar eficazmente sistemas de gestión de bases de datos relacionales y no re
 
 1. [`Sesión 01: Introducción a SQL`](sesion01/README.md)
 1. [`Sesión 02: Agrupamientos`](sesion02/README.md)
-1. Subconsultas
+1. [`Sesión 03: Subconsultas`](sesion03/README.md)
 1. Cruces
 1. Diseño básico de bases relacionales
 1. Introducción a NoSQL
