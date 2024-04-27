@@ -38,4 +38,4 @@ Categorías donde el precio máximo de un producto sea mayor a 5.
 **¡Con esto concluimos el material de la Sesión 2!**
 
 
-[`Anterior`](../ejemplo03/README.md) | [`Siguiente`](../../tema04/README.md)
+[`Anterior`](../ejemplo03/README.md) | [`Siguiente`](../../../sesion03/README.md)
