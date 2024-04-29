@@ -25,4 +25,4 @@ Escribe una consulta que obtenga el nombre de los usuarios que hayan realizado p
 **¡Con esto concluimos el material de la Sesión 3!**
 
 
-[`Anterior`](../ejemplo03/README.md) | [`Siguiente`](../../../sesion03/README.md)
+[`Anterior`](../ejemplo03/README.md) | [`Siguiente`](../../../sesion04/README.md)
