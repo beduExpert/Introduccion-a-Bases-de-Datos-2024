@@ -41,26 +41,26 @@ Te sugerimos seguir los siguientes pasos para llegar a la solución. Sin embargo
 > USE mariareyes;
 >
 > CREATE TABLE Alumnos (
->   matricula INT PRIMARY KEY,
->   nombre VARCHAR(45),
->   apellido VARCHAR (45)
-> );
-> 
-> CREATE TABLE Tareas (
->   id_tarea INT PRIMARY KEY,
->   matricula INT,
->   numero_tarea INT,
->   calificacion FLOAT,
->   FOREIGN KEY (matricula) REFERENCES Alumnos(matricula)
-> );
+>    matricula VARCHAR(11) PRIMARY KEY,
+>    nombre VARCHAR(45),
+>    apellido VARCHAR (45)
+>);
 >
-> CREATE TABLE Examenes (
+>CREATE TABLE Tareas (
+>    id_tarea INT PRIMARY KEY,
+>    matricula VARCHAR(11),
+>    numero_tarea INT,
+>    calificacion DOUBLE,
+>    FOREIGN KEY (matricula) REFERENCES Alumnos(matricula)
+>);
+>
+>CREATE TABLE Examenes (
 >   id_examen INT PRIMARY KEY,
->   matricula INT,
->   numero_examen INT,
->   calificacion FLOAT,
->   FOREIGN KEY (matricula) REFERENCES Alumnos(matricula)
-> );
+>    matricula VARCHAR(11),
+>    numero_examen INT,
+>    calificacion DOUBLE,
+>    FOREIGN KEY (matricula) REFERENCES Alumnos(matricula)
+>);
 >
 > ```
 > </details>

@@ -37,8 +37,30 @@ Te sugerimos seguir los siguientes pasos para llegar a la solución. Sin embargo
 >
 >    ![img](../../imagenes/img12.png)
 > 
->   da clic derecho en el nombre de tu base y selecciona `Table Data Import Wizard`
+>   da clic derecho en el nombre de tu base y selecciona `Table Data Import Wizard`.
+> 
+> 3. Una vez que se abra el *Wizard* se mostrará la siguiente pantala, busca el archivo CSV correspondiente. En este caso abriremos el archivo `Alumnos.csv`.
+>
+> ![img](../../imagenes/img13.png)
+>
+> 4. Una vez seleccionado el archivo nos preguntará si queremos usar una tabla existente o que el asistete haga la creación de la tabla por nosotros. En este caso, dado que ya creamos la tabla, simplemente buscaremos la tabla a donde queremos que se vayan los datos. Que en este caso es la tabla `Alumnos`.
+>
+> ![img](../../imagenes/img14.png)
+>
+> 5. Nos aseguramos simplemente que las columnas de nuestro archivo original correspondan con las de la tabla que creamos.
+>
+> ![img](../../imagenes/img15.png)
+>
+> 6. Al finalizar nos indicará que cargó los 50 registros, cosa que podemos verificar haciendo un bonito `SELECT`.
+>
+> ![img](../../imagenes/img16.png)
+>
+> ```sql
+> SELECT *
+> FROM Alumnos;
+> ```
+> **Te toca cargar el resto de tablas, las necesitamos todas para el siguiente reto**.
 > </details>
 ---
 
-[`Anterior`](../reto02/README.md) | [`Siguiente`](../reto03/README.md)
+[`Anterior`](../reto02/README.md) | [`Siguiente`](../reto04/README.md)
