@@ -1,12 +1,10 @@
-[`Introducción a Bases de Datos`](../../../README.md) > [`Sesión 04`](../../README.md) > [`UNION e INTERSECT`](../README.md)
+[`Introducción a Bases de Datos`](../../../README.md) > [`Sesión 05`](../../README.md) > [`Creación de tablas`](../README.md)
 
 #### Ejemplo 3
 
 ##### Objetivos 🎯
 
-- Utilizar `UNION` e `INTERSECT` para combinar y comparar conjuntos de resultados de consultas SQL.
-
-- Comprender cómo funcionan `UNION` e `INTERSECT` y cuándo es apropiado utilizar cada uno.
+- Ejemplificar cómo usar `CREATE TABLE` con datos reales.
 
 ##### Requisitos 📋
 
@@ -14,59 +12,50 @@
 
 ##### Desarrollo 🚀
 
-Supongamos que queremos realizar un análisis de los clientes que han realizado pedidos y los clientes que han comprado productos de una categoría específica. Para ello, utilizaremos `UNION` e `INTERSECT` para combinar y comparar conjuntos de resultados de consultas SQL.
-
-###### `UNION` para combinar clientes que han realizado pedidos
-
-- Utilizaremos `UNION` para combinar los clientes que han realizado pedidos en la tabla `Pedidos`.
-
-- Seleccionaremos el nombre y el apellido de los clientes de la tabla `Usuarios` que tienen pedidos registrados en la tabla `Pedidos`.
+A manera de ejemplo, te mostramos los comandos necesarios para crear todas las tablas de nuestra base de datos `tienda`:
 
 ```sql
-SELECT nombre, 
-       apellido
-FROM Usuarios
-WHERE user_id IN (SELECT DISTINCT user_id FROM Pedidos)
+-- Creación de la tabla Usuarios
+CREATE TABLE Usuarios (
+    user_id INT PRIMARY KEY,
+    nombre VARCHAR(50),
+    apellido VARCHAR(50),
+    edad INT,
+    correo_electronico VARCHAR(100),
+    fecha_registro DATE
+);
 
-UNION
+-- Creación de la tabla Pedidos
+CREATE TABLE Pedidos (
+    pedido_id INT PRIMARY KEY,
+    user_id INT,
+    fecha_pedido DATE,
+    total_pedido DECIMAL(10, 2),
+    FOREIGN KEY (user_id) REFERENCES Usuarios(user_id)
+);
 
-SELECT nombre, 
-       apellido
-FROM Usuarios
-WHERE user_id IN (SELECT DISTINCT user_id FROM Detalles_Pedido);
+-- Creación de la tabla Productos
+CREATE TABLE Productos (
+    producto_id INT PRIMARY KEY,
+    nombre_producto VARCHAR(100),
+    descripcion TEXT,
+    precio DECIMAL(10, 2),
+    stock_disponible INT
+);
+
+-- Creación de la tabla Detalles_Pedido
+CREATE TABLE Detalles_Pedido (
+    detalle_id INT PRIMARY KEY,
+    pedido_id INT,
+    producto_id INT,
+    cantidad INT,
+    precio_unitario DECIMAL(10, 2),
+    subtotal DECIMAL(10, 2),
+    FOREIGN KEY (pedido_id) REFERENCES Pedidos(pedido_id),
+    FOREIGN KEY (producto_id) REFERENCES Productos(producto_id)
+);
 ```
 
-###### `INTERSECT` para comparar clientes que han comprado productos de una categoría específica
+No dudes en preguntar cualquier duda que tengas a tu experta o experto :wink:
 
-- Utilizaremos `INTERSECT` para comparar los clientes que han comprado productos de una categoría específica en la tabla `Productos`.
-
-- Seleccionaremos el nombre y el apellido de los clientes de la tabla Usuarios que han comprado productos de la categoría `"Electrónicos"`.
-
-```sql
-SELECT nombre, 
-       apellido
-FROM Usuarios
-WHERE user_id IN (SELECT user_id FROM Pedidos)
-
-INTERSECT
-
-SELECT U.nombre, U.apellido
-FROM Usuarios                          AS U
-JOIN Detalles_Pedido DP 
-  ON U.user_id = DP.user_id
-JOIN Productos                         AS P 
-  ON DP.producto_id = P.producto_id
-JOIN Categorias_Producto               AS CP 
-  ON P.categoria_id = CP.categoria_id
-WHERE CP.nombre_categoria = 'Electrónicos';
-```
-
-###### Conclusiones
-
-- `UNION` combina conjuntos de resultados de consultas SQL y elimina duplicados.
-
-- `INTERSECT` compara conjuntos de resultados de consultas SQL y devuelve las filas comunes a ambas consultas.
-
-- La combinación de `UNION` e `INTERSECT` nos permite realizar análisis complejos y comparaciones entre conjuntos de datos en una base de datos relacional.
-
-[`Anterior`](../README.md) | [`Siguiente`](../reto03/README.md)
+[`Anterior`](../README.md) | [`Siguiente`](../../tema04/README.md)

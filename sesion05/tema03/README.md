@@ -1,26 +1,33 @@
-[`Introducción a Bases de Datos`](../../README.md) > [`Sesión 04`](../README.md)
+[`Introducción a Bases de Datos`](../../README.md) > [`Sesión 05`](../README.md)
 
-### 4.3. `UNION` e `INTERSECT`
-
-<img src="imagenes/img01.png" width="50%" align="right" hspace=30>
-
-<img src="imagenes/img02.png" width="50%" align="right" hspace=30>
+### Creación de tablas
 
 *Recordemos del prework que...*
 
-👉 La cláusula `UNION` se utiliza para combinar el resultado de dos o más consultas SQL en un único conjunto de resultados. Básicamente, elimina duplicados y combina los registros de los resultados de las consultas en un solo conjunto de resultados. Es importante destacar que las consultas deben tener la misma cantidad de columnas y los tipos de datos deben ser compatibles.
+👉 La estructura básica de la instrucción `CREATE TABLE` en SQL se utiliza para crear una nueva tabla en una base de datos.
 
-👉 La cláusula `INTERSECT` se utiliza para combinar los resultados de dos consultas SQL y devolver solo los registros que aparecen en ambos conjuntos de resultados. En otras palabras, `INTERSECT` devuelve las filas que son comunes en ambas consultas. Al igual que con `UNION`, las consultas deben tener la misma cantidad de columnas y los tipos de datos deben ser compatibles.
+👉 Su sintaxis es la siguiente:
 
-👉 Además de estos operadores existen otras variantes, sin embargo, en esta sesión no profundizaremos en éstas. 
+   ```sql
+   CREATE TABLE nombre_tabla (
+    columna1 tipo_dato restricciones,
+    columna2 tipo_dato restricciones,
+    ...
+    FOREIGN KEY (llave_foranea) REFERENCES otra_tabla (columna_pk),
+    ... 
+   );
+   ```
 
-![img](imagenes/img03.png)
+   - `nombre_tabla` Es el nombre que se le dará a la nueva tabla.
+   - `columna1`, `columna2`, ... Son los nombres de las columnas que se van a crear en la tabla.
+   - `tipo_dato` Es el tipo de datos que almacenará la columna (`varchar`, `int`, `date`, etc.).
+   - `restricciones`: Son las restricciones que se pueden aplicar a la columna (`NOT NULL`, `UNIQUE`, `PRIMARY KEY`, etc.).
+   - `FOREIGN KEY (llave_foranea) REFERENCES otra_tabla (columna_pk)` Define una llave foránea para asegurar la integridad referencial entre dos tablas.
 
 #### 🧐 Actividades
 
 - [`Ejemplo 3`](ejemplo03/README.md)
-- [`Reto 3`](reto03/README.md)
 
 <br/>
 
-[`Anterior`](../tema02/reto02/README.md) | [`Siguiente`](ejemplo03/README.md)
+[`Anterior`](../tema02/ejemplo02/README.md) | [`Siguiente`](ejemplo03/README.md)

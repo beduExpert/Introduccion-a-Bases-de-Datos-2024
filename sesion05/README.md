@@ -17,8 +17,7 @@ Introducir a los estudiantes a los principios de diseño de bases de datos relac
 - [5.1. Modelo entidad relación](tema01/README.md)
 - [5.2. Normalización de datos](tema02/README.md)
 - [5.3. Creación de tablas](tema03/README.md)
-- [5.4. Llaves primarias y foráneas](tema04/README.md)
-- [5.5. Cargando los datos](tema05/README.md)
+- [5.4. Cargando los datos](tema04/README.md)
 
 ### :brain: Círculo de estudio
 
