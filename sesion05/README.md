@@ -1,6 +1,6 @@
 [`Introducción a Bases de Datos`](../README.md)
 
-## Sesión 05: Cruces
+## Sesión 05: Diseño básico de bases de datos relacionales
 
 ### 🌿 Presentación 
 

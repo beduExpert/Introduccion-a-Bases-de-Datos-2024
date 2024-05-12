@@ -1,25 +1,28 @@
-[`Introducción a Bases de Datos`](../../README.md) > [`Sesión 04`](../README.md)
+[`Introducción a Bases de Datos`](../../README.md) > [`Sesión 05`](../README.md)
 
-### 4.1. `INNER JOIN`
+### 5.1. Modelo entidad-relación
 
-<img src="imagenes/img01.png" width="50%" align="right" hspace=30 vspace=30>
+<img src="../imagenes/img01.png" width="50%" align="right" hspace=30 vspace=30>
 
 *Recordemos del prework que...*
 
-👉 `INNER JOIN` es una cláusula en SQL que combina registros de dos o más tablas basándose en una condición de coincidencia especificada. 
+👉 El modelo entidad-relación es un enfoque para diseñar bases de datos relacionales que representa las entidades relevantes dentro de un sistema y las relaciones entre ellas.
 
-👉 Esto significa que devuelve solo los registros que tienen correspondencias en ambas tablas, es decir, donde el valor de la columna coincidente es el mismo en ambas tablas. 
+👉 En este modelo, las entidades son objetos o conceptos del mundo real, como personas, lugares o cosas que tienen atributos que describen sus características.
 
-👉 Es útil para obtener información relacionada de múltiples tablas y es uno de los tipos de cruces más comunes utilizados en consultas SQL.
+👉 Las relaciones, por otro lado, representan cómo estas entidades se relacionan entre sí.
 
-<br/>
+👉 En un diagrama entidad-relación, las entidades se representan mediante rectánggulos, con sus atributos enumerados dentro de ellos.
 
-![img](imagenes/img02.svg)
+👉 Las relaciones se representan mediante líneas que conectan las entidades.
+
+👉 El modelo entidad-relaicón es una herramienta fundamental en el diseño de bases de datos, ya que proporciona una representación visual clara y concisa de la estructura y las relaciones de los datos en un sistema.
+
+👉 Además, sirve como punto de partida para la posterior implementación y desarrollo de la base de datos.
 
 #### 🧐 Actividades
 
 - [`Ejemplo 1`](ejemplo01/README.md)
-- [`Reto 1`](reto01/README.md)
 
 <br/>
 

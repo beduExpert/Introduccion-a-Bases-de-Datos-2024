@@ -1,30 +1,23 @@
-[`Introducción a Bases de Datos`](../../README.md) > [`Sesión 04`](../README.md)
+[`Introducción a Bases de Datos`](../../README.md) > [`Sesión 05`](../README.md)
 
-### 4.2. `LEFT` y `RIGHT JOIN`
+### 5.2 Normalización de datos
 
-<img src="imagenes/img01.png" width="50%" align="right" hspace=30>
-
-<img src="imagenes/img02.png" width="50%" align="right" hspace=30>
+<img src="../imagenes/img07.jpg" width="50%" align="right" hspace=30>
 
 *Recordemos del prework que...*
 
-👉 `LEFT JOIN` y `RIGHT JOIN` son tipos de operaciones de combinación en SQL que permiten combinar registros de dos tablas basándose en una condición de coincidencia especificada. 
+👉 La normalización de datos es un proceso utilizando en el diseño de bases de datos relacionales para organizar la estructura de la información de manera eficiente y libre de redundancias.
 
-👉 La principal diferencia entre éstas instrucciones radica en cómo manejan los registros que no tienen correspondencia en la otra tabla:
+👉 Su objetivo principal es reducir la redundancia y mejorar la integridad de los datos al eliminar anomalías de actualización, inserción y eliminación.
 
-- `LEFT JOIN` Devuelve todos los registros de la tabla izquierda (la primera mencionada en la consulta) y los registros coincidentes de la tabla derecha. Si no hay coincidencias en la tabla derecha, se devuelven `NULL` en las columnas correspondientes de esa tabla.
+👉 Este proceso se basa en una serie de reglas llamadas formas normales, que establecen criterios para la organización de las tablas y la relación entre ellas.
 
-- `RIGHT JOIN` Devuelve todos los registros de la tabla derecha (la segunda mencionada en la consulta) y las filas coincidentes de la tabla izquierda. Si no hay coincidencias en la tabla izquierda, se devuelven `NULL` en las columnas correspondientes de esa tabla.
-
-👉 En pocas palabras... `LEFT JOIN` asegura que todos los registros de la tabla izquierde esten presentes en el resultado, mientras que `RIGHT JOIN` asegura que todos los registros de la tabla derecha estén presentes en el resultado.
-
-![img](../tema01/imagenes/img02.svg)
+👉 Las formas normales van desde la primera forma normal (1FN) hasta la quinta forma normal (5FN), cada una con requisitos específicos para garantizar la eliminación de las redundancias y la conservación de la integridad de los datos.
 
 #### 🧐 Actividades
 
 - [`Ejemplo 2`](ejemplo02/README.md)
-- [`Reto 2`](reto02/README.md)
 
 <br/>
 
-[`Anterior`](../tema01/reto01/README.md) | [`Siguiente`](ejemplo02/README.md)
+[`Anterior`](../tema01/ejemplo01/README.md) | [`Siguiente`](ejemplo02/README.md)

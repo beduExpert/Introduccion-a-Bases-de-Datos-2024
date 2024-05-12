@@ -1,229 +1,53 @@
-[`Introducción a Bases de Datos`](../../../README.md) > [`Sesión 04`](../../README.md) > [`INNER JOIN`](../README.md)
+[`Introducción a Bases de Datos`](../../../README.md) > [`Sesión 05`](../../README.md) > [`Modelo entidad-relación`](../README.md)
 
 #### Ejemplo 1
 
 ##### Objetivos 🎯
 
-- Utilizar `INNER JOIN` para combinar información de dos tablas relacionadas en una base de datos.
+- Mostrar cómo se ve un diagrama-relación e interpretar los símbolos que hay en este.
 
 ##### Requisitos 📋
 
 - MySQL Workbench instalado.
 
-- Conocimientos básicos de SQL, incluyendo la sintaxis de `INNER JOIN` y la estructura de las tablas.
-
 ##### Desarrollo 🚀
 
-Supongamos que tenemos una tienda en línea y queremos obtener información sobre los pedidos realizados por nuestros usuarios, incluyendo dus nombres y detalles de los productos que compraron.
+**MySQL Workbench** tiene una herramienta llamada *MySQl Model* que nos permite diseñar bases de datos desde cero u obtener el diagrama entidad-relación de bases previamente desarrolladas con el fin de entenderlas, ya sea para modificarlas en un futuro o añadir nuevas tablas al esquema.
 
-1. Primero, debemos identificar qué columnas nos gustaría incluir en nuestro resultado. En este caso, queremos el nombre del usuario, la fecha del pedido y el total del pedido.
+El proceso de obtener el diagrama a partir de una base de datos previamente diseñada se conoce como *ingeniería inversa*, lo que haremos en este primer ejemplo será obtener el diagrama *entidad-relación* de la base de datos que hemos usado hasta este punto.
 
-2. Utilizamos la cláusula `INNER JOIN` para combinar las tablas de `Usuarios` y `Pedidos` basándonos en la columna `user_id` que actúa como *llave foránea* (hablaremos de esto la próxima sesión) en la tabla `Pedidos` y la *llave primaria* en la tabla `Usuarios`.
+Para ello iremos al menú *Databases* de Workbench:
 
-3. Especificamos la condición de coincidencia utilizando utilizando la cláusula `ON`, donde indicamos que los `user_id` de ambas tablas deben ser iguales para que se incluyan en el resultado.
+![img](../../imagenes/img02.png)
 
-4. Seleccionamos las columnas deseadas de ambas tablas y ejecutamos la consulta.
+Seleccionaremos la opción que dice *Reverse Engineer*, nos desplegará la ventana de conexión que ya conocemos:
 
-##### Consulta SQL
+![img](../../imagenes/img03.png)
 
-```sql
-SELECT Usuarios.nombre, 
-       Usuarios.apellido, 
-       Pedidos.fecha_pedido, 
-       Pedidos.total_pedido
-FROM Usuarios
-INNER JOIN Pedidos 
-  ON Usuarios.user_id = Pedidos.user_id;
-```
+Verificamos que los datos de conexión correspondan con **los accesos que te proporcionamos en la primera sesión, no debe corresponder con la imagen.** 
 
-Recordemos además que la palabra reservada `INNER` es opcional en MySQL: 
+Continuamos dando siguiente y colocando los datos que nos vaya solicitando. 
 
-```sql
-SELECT Usuarios.nombre, 
-       Usuarios.apellido, 
-       Pedidos.fecha_pedido, 
-       Pedidos.total_pedido
-FROM Usuarios
-JOIN Pedidos 
-  ON Usuarios.user_id = Pedidos.user_id;
-```
+Al llegar a esta ventana, seleccionamos el esquema `tienda`:
 
-También que si queremos, podemos poner un *alias* a los nombres de tablas.
+![img](../../imagenes/img04.png)
 
-En ocasiones necesitamos simplificar lo más que se pueda la sintaxis de las consultas para encontrar errores y facilitar la *depuración*.
+Continuamos dando siguiente. Al llegar a esta ventana debemos verificar que la opción *Place imported objects on a diagrama* se encuentra seleccionada:
 
-```sql
-SELECT u.nombre, 
-       u.apellido, 
-       p.fecha_pedido, 
-       p.total_pedido
-FROM Usuarios AS u
-JOIN Pedidos  AS p
-  ON u.user_id = p.user_id;
-```
+![img](../../imagenes/img05.png)
 
-Nunca pierdas de vista la legibilidad cuando escribas una consulta.
+Nos mostrará un diagrama similar al siguiente:
 
-<details><summary>Salida</summary>
+![img](../../imagenes/img06.png)
 
-<table border=1>
-<tr>
-<td bgcolor=silver class='medium'>nombre</td>
-<td bgcolor=silver class='medium'>apellido</td>
-<td bgcolor=silver class='medium'>fecha_pedido</td>
-<td bgcolor=silver class='medium'>total_pedido</td>
-</tr>
+Notemos en este diagrama lo siguiente:
 
-<tr>
-<td class='normal' valign='top'>Juan</td>
-<td class='normal' valign='top'>Perez</td>
-<td class='normal' valign='top'>2023-03-10</td>
-<td class='normal' valign='top'>50.00</td>
-</tr>
+1. El equipo de la llave nos indica cuáles son las llaves primarias.
 
-<tr>
-<td class='normal' valign='top'>Maria</td>
-<td class='normal' valign='top'>Gomez</td>
-<td class='normal' valign='top'>2023-03-12</td>
-<td class='normal' valign='top'>70.00</td>
-</tr>
+2. Los campos con el diamante rojo indican cuáles son llaves foráneas.
 
-<tr>
-<td class='normal' valign='top'>Carlos</td>
-<td class='normal' valign='top'>Lopez</td>
-<td class='normal' valign='top'>2023-04-15</td>
-<td class='normal' valign='top'>90.00</td>
-</tr>
+3. Las líneas que unen los rectángulos indican la relación entre las tablas-
 
-<tr>
-<td class='normal' valign='top'>Ana</td>
-<td class='normal' valign='top'>Martinez</td>
-<td class='normal' valign='top'>2023-05-20</td>
-<td class='normal' valign='top'>60.00</td>
-</tr>
+Al ver un diagrama de este estilo podríamos por ejemplo saber cómo hacer los cruces que vimos la sesión pasada. Además nos da información valiosa como los tipos de datos de cada campo.
 
-<tr>
-<td class='normal' valign='top'>Pedro</td>
-<td class='normal' valign='top'>Rodriguez</td>
-<td class='normal' valign='top'>2023-06-25</td>
-<td class='normal' valign='top'>80.00</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>Laura</td>
-<td class='normal' valign='top'>Sanchez</td>
-<td class='normal' valign='top'>2023-07-30</td>
-<td class='normal' valign='top'>120.00</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>Diego</td>
-<td class='normal' valign='top'>Garcia</td>
-<td class='normal' valign='top'>2023-08-05</td>
-<td class='normal' valign='top'>100.00</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>Sofia</td>
-<td class='normal' valign='top'>Hernandez</td>
-<td class='normal' valign='top'>2023-09-10</td>
-<td class='normal' valign='top'>150.00</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>Elena</td>
-<td class='normal' valign='top'>Diaz</td>
-<td class='normal' valign='top'>2023-10-15</td>
-<td class='normal' valign='top'>110.00</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>Alejandro</td>
-<td class='normal' valign='top'>Torres</td>
-<td class='normal' valign='top'>2023-11-20</td>
-<td class='normal' valign='top'>130.00</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>Marina</td>
-<td class='normal' valign='top'>Ruiz</td>
-<td class='normal' valign='top'>2023-12-25</td>
-<td class='normal' valign='top'>70.00</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>Javier</td>
-<td class='normal' valign='top'>Flores</td>
-<td class='normal' valign='top'>2024-01-30</td>
-<td class='normal' valign='top'>90.00</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>Lucia</td>
-<td class='normal' valign='top'>Gutierrez</td>
-<td class='normal' valign='top'>2024-02-05</td>
-<td class='normal' valign='top'>100.00</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>Manuel</td>
-<td class='normal' valign='top'>Vazquez</td>
-<td class='normal' valign='top'>2024-03-10</td>
-<td class='normal' valign='top'>120.00</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>Luisa</td>
-<td class='normal' valign='top'>Moreno</td>
-<td class='normal' valign='top'>2024-04-15</td>
-<td class='normal' valign='top'>80.00</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>Miguel</td>
-<td class='normal' valign='top'>Jimenez</td>
-<td class='normal' valign='top'>2024-05-20</td>
-<td class='normal' valign='top'>150.00</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>Carmen</td>
-<td class='normal' valign='top'>Castillo</td>
-<td class='normal' valign='top'>2024-06-25</td>
-<td class='normal' valign='top'>110.00</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>Raul</td>
-<td class='normal' valign='top'>Navarro</td>
-<td class='normal' valign='top'>2024-07-30</td>
-<td class='normal' valign='top'>140.00</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>Patricia</td>
-<td class='normal' valign='top'>Garcia</td>
-<td class='normal' valign='top'>2024-08-05</td>
-<td class='normal' valign='top'>100.00</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>Daniel</td>
-<td class='normal' valign='top'>Sanchez</td>
-<td class='normal' valign='top'>2024-09-10</td>
-<td class='normal' valign='top'>130.00</td>
-</tr>
-</table>
-
-
-</details>
-
-##### Conclusiones
-
-- `INNER JOIN` nos permite combinar información de dos tablas relacionadas en una base de datos.
-
-- La cláusula `ON` especifica la condición de coincidencia para la combinación de filas.
-
-- Este tipo de `JOIN` nos ayuda a obtener datos relacionados de manera eficiente y precisa, lo que facilita el análisis y la extracción de información de nuestras bases de datos.
-
-[`Anterior`](../README.md) | [`Siguiente`](../reto01/README.md)
+[`Anterior`](../README.md) | [`Siguiente`](../../tema02/README.md)
