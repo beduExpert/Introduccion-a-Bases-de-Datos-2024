@@ -13,6 +13,6 @@ Utilizar eficazmente sistemas de gestión de bases de datos relacionales y no re
 1. [`Sesión 05: Diseño básico de bases relacionales`](sesion05/README.md)
 1. [`Sesión 06: Introducción a NoSQL`](sesion06/README.md)
 1. [`Sesión 07: Agregaciones`](sesion07/README.md)
-1. Casos de uso y aplicaciones prácticas
+1. [`Sesión 08: Casos de uso y aplicaciones prácticas`](sesion08/README.md)
 
 [`Siguiente`](sesion01/README.md)
