@@ -23,8 +23,6 @@ WHERE <condiciones>;
 
 👉 En resumen, la cláusula `WHERE` nos permite filtrar los datos de una tabla según ciertas condiciones específicas, utilizando operadores relacionales para comparar valores y operadores lógicos para combinar múltiples condiciones. 
 
-👉 En resumen, la cláusula `SELECT` nos permite elegir las columnas que queremos ver en los resultados, mientras que la cláusula `FROM` nos indica de dónde provienen esos datos, es decir, la tabla o tablas en las que se encuentran. 
-
 👉 Esto nos permite obtener resultados más precisos y relevantes para nuestras necesidades.
 
 #### 🧐 Actividades

@@ -55,7 +55,7 @@
    
    ![imagen](imagenes/s1we22.png)
 
-3. La base de datos `tienda` fue creada por nosotros, mientras que el resto de bases de datos son parte del Sistema Gestor de Bases de Datos y no las usaremos de momento.
+3. Los esquemas `tienda` y `metro` fueron creados por nosotros, mientras que el resto de bases de datos son parte del Sistema Gestor de Bases de Datos y no las usaremos de momento.
 
    Nos conectaremos a la base de datos `tienda`. Para hacer eso, usa el siguiente comando:
 

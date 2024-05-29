@@ -20,7 +20,7 @@ ORDER BY <campo> [DESC|ASC];
 
 👉 Puedes ordenar los resultados en orden ascendente (`ASC`) o descendente (`DESC`) según los valores de una o más columnas. 
 
-👉 `ASC` es la abreviatura de "ascendente" y se puede omitir, ya que es el orden predeterminado si no se especifica ningún otro. 
+👉 `ASC` es la abreviatura de "ascendente" y se puede omitir, ya que es el orden predeterminado si no se especifica ningún otro, mientras que `DESC` es la abreviatura de "descendente".
 
 #### 🧐 Actividades
 

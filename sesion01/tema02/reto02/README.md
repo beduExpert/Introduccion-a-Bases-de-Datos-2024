@@ -14,7 +14,7 @@
 
 La base de datos que estamos usando en los ejemplos y retos modela una tienda en línea que contiene las siguientes tablas: `Productos` y `Pedidos`. La tabla `Productos` contiene información sobre los productos disponibles en la tienda, mientras que la tabla `Pedidos` contiene información sobre los pedidos realizados por los clientes.
 
-El ejercicio consiste en escribir consultas SQL utilizando el operador * para seleccionar todos los campos de ambas tablas por separado.
+El reto consiste en escribir consultas SQL utilizando el operador * para seleccionar todos los campos de ambas tablas por separado.
 
 **Consulta 1:**   
 Selecciona todos los campos de la tabla Productos.

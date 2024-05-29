@@ -6,9 +6,9 @@
 
 Esta sesión proporcionará una visión general de SQL y cómo se utiliza para interactuar con bases de datos relacionales. Se cubrirán temas como la selección de campos, el filtrado básico y el ordenamiento de datos.
 
-### 🎯 Objetivos
+### 🎯 Objetivo
 
-Introducción a los estudiantes a los conceptos básicos de SQL y la estructura de una base de datos
+Introducir los conceptos básicos de SQL y la estructura de una base de datos
 
 ### 📚 Contenido
 

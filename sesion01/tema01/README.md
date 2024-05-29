@@ -21,7 +21,7 @@
 
 👉 Cada tabla está compuesta por columnas que representan los atributos de la entidad y filas que contienen los registros o las instancias de esa entidad. 
 
-👉 Por ejemplo, en una base de datos de una tienda en línea, podríamos tener una tabla de clientes que contiene columnas como nombre, dirección y correo electrónico, y una tabla de productos que contiene columnas como nombre, precio y cantidad en stock.
+👉 Por ejemplo, en una base de datos de una tienda en línea, podríamos tener una tabla de clientes que contiene columnas como nombre, dirección y correo electrónico, y una tabla de productos que contiene columnas como nombre, precio y cantidad en *stock*.
 
 #### 🧐 Actividades
 
