@@ -6,7 +6,7 @@
 
 *Recordemos del prework que...*
 
-👉 Los **agrupamientos** en bases de datos son una técnica que nos permite combinar registros de datos basándonos en un criterio común y calcular agregaciones sobre esos registros agrupadas.
+👉 Los **agrupamientos** en bases de datos son una técnica que nos permite combinar registros de datos basándonos en un criterio común y calcular agregaciones sobre esos registros agrupados.
 
 👉 Es decir, podemos agrupar registros que comparten un valor en particular en una o más columnas y luego realizar operaciones como sumar, contar, obtener el máximo o mínimo, etc., sobre esas agrupaciones. 
 

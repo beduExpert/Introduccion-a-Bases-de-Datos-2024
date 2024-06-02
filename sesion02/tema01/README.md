@@ -6,7 +6,7 @@
 
 *Recordemos del prework que...*
 
-👉 Las **funciones de agregación** son herramientas en SQL que operan sobre conjuntos de datos para calcular y devolver un único valor resumen. 
+👉 Las **funciones de agregación** son herramientas en **SQL** que operan sobre conjuntos de datos para calcular y devolver un único valor que representa resumen del comportamiento de una o varias columnas. 
 
 👉 Estas funciones pueden realizar operaciones matemáticas como sumas, promedios, conteos, máximos y mínimos en los valores de una columna. 
 

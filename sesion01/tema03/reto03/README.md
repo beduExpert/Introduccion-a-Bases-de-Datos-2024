@@ -29,11 +29,4 @@ Selecciona todos todos los pedidos realizados dentro del año 2023 o aquellos cu
 **Consulta 5:**
 Usando la documentación de **MySQL** selecciona todos los usuarios cuya edad sea mayor o igual a 18 años y cuya fecha de registro sea en octubre de cualquier año. (Este tiene una complejidad mayor, no te estreses si no te sale a la primera :wink:). 
 
-
----
-*__Coloca tus respuestas en el canal del grupo. Usaremos estas respuestas para revisar el reto.__*
-
----
-
-
 [`Anterior`](../ejemplo03/README.md) | [`Siguiente`](../../tema04/README.md)

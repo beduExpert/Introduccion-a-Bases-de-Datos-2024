@@ -4,7 +4,7 @@
 
 ##### Objetivos 🎯
 
-- Demostrar cómo utilizar funciones de agregación en SQL para obtener resúmenes estadísticos de una tabla de ventas.
+- Demostrar cómo usar funciones de agregación en **SQL** para obtener resúmenes estadísticos de una tabla de ventas.
 
 ##### Requisitos 📋
 
@@ -25,12 +25,7 @@ Número total de productos vendidos.
 Número de pedidos del usuario 10.
 
 **Consulta 5:**
-Precio máximo de pedidos hechos el 20 de mayo de 2023. 
-
----
-*__La revisión de este reto se hará de forma interactiva. Pide a tu experta o experto que te comparta el código de Mentimeter__*
-
----
+Precio máximo de pedidos hechos el 29 de mayo de 2023. 
 
 
 [`Anterior`](../ejemplo01/README.md) | [`Siguiente`](../../tema02/README.md)

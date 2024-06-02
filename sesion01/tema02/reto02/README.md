@@ -22,10 +22,4 @@ Selecciona todos los campos de la tabla Productos.
 **Consulta 2:**   
 Selecciona todos los campos de la tabla Pedidos.
 
----
-*__Coloca tus respuestas en el canal del grupo. Usaremos estas respuestas para revisar el reto.__*
-
----
-
-
 [`Anterior`](../ejemplo02/README.md) | [`Siguiente`](../../tema03/README.md)

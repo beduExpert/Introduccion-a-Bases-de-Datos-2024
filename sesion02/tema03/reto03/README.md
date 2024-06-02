@@ -15,25 +15,16 @@
 El ejercicio consiste en escribir consultas SQL utilizando la cláusula `HAVING` así como los operadores relacionales y lógicos. Este reto toma como base tus soluciones del [`Reto 2`](../../tema02/reto02/README.md) .
 
 **Consulta 1:**   
-Categorías cuyo precio promedio del producto sea mayor a 10.
+Pedidos donde el subtotal promedio sea mayor a 400.
 
 **Consulta 2:**   
-Días de la semana donde la cantidad de productos vendidos sea menor a 5.
+Productos donde la cantidad máxima y mínima sean de pedidos sea distinta.
 
-**Consulta 3:**
-Años donde el número de usuarios registrados sea igual a 2.
+**Consulta 3:**   
+Años donde el número de usuarios registrados sea igual mayor a 1000.
 
-**Consulta 4:**
-Meses donde la cantidad de pedidos realizados esté entre 2 y 6.
-
-**Consulta 5:**
-Categorías donde el precio máximo de un producto sea mayor a 5.
-
-
----
-*__Coloca tus respuestas en el canal del grupo. Usaremos estas respuestas para revisar el reto.__*
-
----
+**Consulta 4:**   
+Meses donde la cantidad de pedidos realizados es menor a 800.
 
 **¡Con esto concluimos el material de la Sesión 2!**
 

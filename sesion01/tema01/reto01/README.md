@@ -18,10 +18,4 @@ Usando la base de datos `tienda`, muestra la descripción de las tablas `Pedidos
 |---|---|
 |   |   |
 
----
-*__La revisión de este reto se hará de forma interactiva. Pide a tu experta o experto que te comparta el código de Mentimeter__*
-
----
-
-
 [`Anterior`](../ejemplo01/README.md) | [`Siguiente`](../../tema02/README.md)

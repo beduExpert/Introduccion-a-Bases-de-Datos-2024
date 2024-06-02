@@ -4,7 +4,7 @@
 
 ##### Objetivos 🎯
 
-- Demostrar cómo utilizar funciones de agregación en SQL para obtener resúmenes estadísticos de una tabla de ventas.
+- Demostrar cómo utilizar funciones de agregación en **SQL** para obtener resúmenes estadísticos de una tabla de ventas.
 
 ##### Requisitos 📋
 
@@ -21,19 +21,7 @@ SELECT COUNT(*) AS total_usuarios
 FROM Usuarios;
 ```
 
-<details><summary>Salida</summary>
-
-<table border=1>
-<tr>
-<td bgcolor=silver class='medium'>total_usuarios</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>20</td>
-</tr>
-</table>
-
-</details>
+![img](../../imagenes/img01.png)
 
 **Consulta:** Calcular la suma total de los precios de los productos.
 
@@ -42,19 +30,7 @@ SELECT SUM(precio) AS total_precio_productos
 FROM Productos;
 ```
 
-<details><summary>Salida</summary>
-
-<table border=1>
-<tr>
-<td bgcolor=silver class='medium'>total_precio_productos</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>1150.00</td>
-</tr>
-</table>
-
-</details>
+![img](../../imagenes/img02.png)
 
 **Consulta:** Determinar el precio máximo de un producto.
 
@@ -63,19 +39,7 @@ SELECT MAX(precio) AS precio_maximo_producto
 FROM Productos;
 ```
 
-<details><summary>Salida</summary>
-
-<table border=1>
-<tr>
-<td bgcolor=silver class='medium'>precio_maximo_producto</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>105.00</td>
-</tr>
-</table>
-
-</details>
+![img](../../imagenes/img03.png)
 
 **Consulta:** Determinar el precio mínimo de un producto.
 
@@ -84,19 +48,7 @@ SELECT MIN(precio) AS precio_minimo_producto
 FROM Productos;
 ```
 
-<details><summary>Salida</summary>
-
-<table border=1>
-<tr>
-<td bgcolor=silver class='medium'>precio_minimo_producto</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>10.00</td>
-</tr>
-</table>
-
-</details>
+![img](../../imagenes/img04.png)
 
 **Consulta:** Calcular el promedio de edad de los usuarios.
 
@@ -105,18 +57,6 @@ SELECT AVG(edad) AS promedio_edad_usuarios
 FROM Usuarios;
 ```
 
-<details><summary>Salida</summary>
-
-<table border=1>
-<tr>
-<td bgcolor=silver class='medium'>promedio_edad_usuarios</td>
-</tr>
-
-<tr>
-<td class='normal' valign='top'>30.500</td>
-</tr>
-</table>
-
-</details>
+![img](../../imagenes/img05.png)
 
 [`Anterior`](../README.md) | [`Siguiente`](../reto01/README.md)

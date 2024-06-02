@@ -6,8 +6,7 @@
 
 *Recordemos del prework que...*
 
-
-👉 La cláusula `HAVING` se utiliza en SQL para filtrar filas de datos después de que se han agrupado, basándose en condiciones específicas que implican funciones de agregación. 
+👉 La cláusula `HAVING` se utiliza en **SQL** para filtrar filas de datos después de que se han agrupado, basándose en condiciones específicas que implican funciones de agregación. 
 
 👉 En otras palabras, mientras que la cláusula `WHERE` se utiliza para filtrar filas antes de que se agrupen, la cláusula `HAVING` se aplica después de la agrupación y se utiliza para filtrar grupos de filas basadas en condiciones agregadas, como la suma o el recuento de valores.
 
