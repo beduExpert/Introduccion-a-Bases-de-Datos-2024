@@ -13,7 +13,7 @@
 ##### Desarrollo 🚀
 
 **Consulta 1:**   
-Escribe una consulta que obtenga el nombre de los productos que hayan registrado compras con una cantidad de más de 5 productos. 
+Escribe una consulta que obtenga el nombre de los productos que hayan registrado compras con una cantidad de más de 5 unidades. 
 
 ---
 *__Coloca tus respuestas en el canal del grupo. Usaremos estas respuestas para revisar el reto.__*
