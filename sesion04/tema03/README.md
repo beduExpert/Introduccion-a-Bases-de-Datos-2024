@@ -12,6 +12,8 @@
 
 👉 La cláusula `INTERSECT` se utiliza para combinar los resultados de dos consultas SQL y devolver solo los registros que aparecen en ambos conjuntos de resultados. En otras palabras, `INTERSECT` devuelve las filas que son comunes en ambas consultas. Al igual que con `UNION`, las consultas deben tener la misma cantidad de columnas y los tipos de datos deben ser compatibles.
 
+👉 Lamentablemente **MySQL** no soporta `INTERSECT`, una forma de simularlo es con subconsultas. Sin embargo, te mencionamos su comportamiento porque es usual que lo uses en el día a día con otros gestores de bases de datos.
+
 👉 Además de estos operadores existen otras variantes, sin embargo, en esta sesión no profundizaremos en éstas. 
 
 ![img](imagenes/img03.png)

@@ -16,7 +16,7 @@
 
 ##### Desarrollo 🚀
 
-Supón que quieres realizar un análisis detallado de los pedidos realizados por cada usuario, incluyendo información sobre los productos comprados y las categorías a las que pertenecen esos productos.
+Supón que quieres realizar un análisis detallado de los pedidos realizados por cada usuario, incluyendo información sobre los productos comprados.
 
 **Ejercicio: LEFT JOIN para combinar usuarios, pedidos y detalles de pedidos**
 
@@ -30,11 +30,6 @@ Supón que quieres realizar un análisis detallado de los pedidos realizados por
 
 
 Se espera que con este ejercicio comprendas cómo utilizar `LEFT JOIN` y/o `RIGHT JOIN` para combinar información de múltiples tablas relacionadas en una base de datos, y cómo utilizar `GROUP BY` para agregar y resumir datos de manera significativa. Además se espera que comprendas la importancia de entender la estructura de las tablas y las relaciones entre ellas para realizar consultas avanzadas. Este ejercicio te permitirá practicar la aplicación de cruces y `GROUP BY` en escenarios reales y desarrollar habilidades para realizar análisis sofísticados de datos.
-
----
-*__Coloca tus respuestas en el canal del grupo. Usaremos estas respuestas para revisar el reto.__*
-
----
 
 
 [`Anterior`](../ejemplo02/README.md) | [`Siguiente`](../../tema03/README.md)

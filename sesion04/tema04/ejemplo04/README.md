@@ -33,4 +33,7 @@ Es importante usar `CROSS JOIN` con precaución, ya que puede resultar en conjun
 
 `CROSS JOIN` puede se útil en situaciones específicas, como la generación de combinaciones o la creación de matrices de datos, pero debe utilizarse con cuidado para evitar problemas de rendimiento y resultados inesperados.
 
-[`Anterior`](../README.md) | [`Siguiente`](../reto04/README.md)
+**¡Con esto concluimos el material de la Sesión 4!**
+
+[`Anterior`](../README.md) | [`Siguiente`](../../../sesion05/README.md)
+

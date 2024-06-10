@@ -23,4 +23,4 @@ Introducir a los estudiantes a los principios de diseño de bases de datos relac
 
 - [Diseño de una base de datos para calificaciones](circulo_estudio/README.md)
 
-[`Anterior`](../sesion04/tema04/reto04/README.md) | [`Siguiente`](tema01/README.md)
+[`Anterior`](../sesion04/tema04/ejemplo04/README.md) | [`Siguiente`](tema01/README.md)

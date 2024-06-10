@@ -19,7 +19,6 @@
 #### 🧐 Actividades
 
 - [`Ejemplo 4`](ejemplo04/README.md)
-- [`Reto 4`](reto04/README.md)
 
 <br/>
 

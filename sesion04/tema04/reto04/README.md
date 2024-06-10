@@ -6,7 +6,7 @@
 
 - Aplicar `CROSS JOIN` para generar todas las combinaciones posibles entre dos conjuntos de datos.
 
-- Utilizar GROUP BY para agregar datos de manera significativa en combinación con `CROSS JOIN` y otro tipo de `JOIN`.
+- Utilizar `GROUP BY` para agregar datos de manera significativa en combinación con `CROSS JOIN` y otro tipo de `JOIN`.
 
 - Comprender cómo combinar múltiples operadores de `JOIN` y agregaciones en una consulta SQL.
 
@@ -17,13 +17,7 @@
 
 ##### Desarrollo 🚀
 
-Supón que quieres analizar las preferencias de compra de los usuarios agrupadas por categoría de productos. Utiliza `CROSS JOIN` para generar todas las posibles combinaciones entre usuarios y productos, `INNER JOIN` para obtener los detalles de los pedidos y `GROUP BY` para agregar las compras por categoría de productos.
-
-
----
-*__Coloca tus respuestas en el canal del grupo. Usaremos estas respuestas para revisar el reto.__*
-
----
+Supón que quieres analizar los productos que no han sido comprados por nuestras personas usuarias. Esto puede hacerse con un `LEFT` o  `RIGHT JOIN` como vimos anteriormente. Sin embargo, también es posible hacerlo por medio de un `CROSS JOIN`. Para ello tendrás que generar todas las posibles combinaciones entre usuarios y productos y después descartar los que tengan un pedido por parte del usuario.
 
 **¡Con esto concluimos el material de la Sesión 4!**
 

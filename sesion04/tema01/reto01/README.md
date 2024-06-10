@@ -27,10 +27,4 @@ Supongamos que necesitamos realizar un análisis de los productos comprados por 
 
 Con este ejercicio se espera que practiques el uso de  `INNER JOIN` para obtener información combinada de varias tablas relacionadas en una base de datos. Además, deberías comprender cómo utilizar esta funcionalidad para realizar análisis de datos detallados y extraer información específica según los criterios establecidos.
 
----
-*__La revisión de este reto se hará de forma interactiva. Pide a tu experta o experto que te comparta el código de Mentimeter__*
-
----
-
-
 [`Anterior`](../ejemplo01/README.md) | [`Siguiente`](../../tema02/README.md)
