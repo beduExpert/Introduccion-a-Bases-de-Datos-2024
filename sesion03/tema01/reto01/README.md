@@ -23,12 +23,4 @@ Algunos tipos para hacer la consulta:
 
 3. Muestra el resultado de la subconsulta, es decir, la cantidad total venida de cada producto, como una columna llamada `cantidad_total_vendida` o algo similar junto con el nombre y el precio unitario del producto en la consulta principal.
 
-Con los resultados obtenidos responde: **¿Cuál es la cantidad total vendida del Producto 14?**
-
----
-*__La revisión de este reto se hará de forma interactiva. Pide a tu experta o experto que te comparta el código de Mentimeter__*
-
----
-
-
 [`Anterior`](../ejemplo01/README.md) | [`Siguiente`](../../tema02/README.md)
