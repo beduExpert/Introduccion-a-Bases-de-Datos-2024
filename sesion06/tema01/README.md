@@ -6,7 +6,7 @@
 
 *Recordemos del prework que...*
 
-👉 **MongoDB** es un Gestor de Bases de Datos no relacionales orientado a docuentos que hace uso de la orientación llave/valor.
+👉 **MongoDB** es un Gestor de Bases de Datos no relacionales orientado a documentos que hace uso de la orientación llave/valor.
 
 👉 Su nombre proviene del inglés *homongus* y usa el formato **BSON** (**JSON** compilado) para almacenar datos.
 
