@@ -13,9 +13,7 @@ Aplicar los conocimientos adquiridos en el módulo a casos de uso reales en dife
 ### 📚 Contenido
 
 - [8.1. Empresas en el mundo que usan bases de datos](tema01/README.md)
-- [8.2. Caso de estudio 01: Procesamiento de datos](tema02/README.md)
-- [8.3. Caso de estudio 02: Análisis de datos](tema03/README.md)
-- [8.4. Caso de estudio 03: *Machine Learning*](tema04/README.md)
-- [8.5. Tips finales](tema05/README.md)
+- [8.2. Caso de estudio: Afluencia Diaria de Pasajeros en el metro de la Ciudad de México](tema02/README.md)
+- [8.3. Tips finales](tema03/README.md)
 
 [`Anterior`](../sesion07/tema04/reto04/README.md) | [`Siguiente`](tema01/README.md)

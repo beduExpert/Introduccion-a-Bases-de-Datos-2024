@@ -10,6 +10,11 @@ Esta sesión proporcionará una visión general de SQL y cómo se utiliza para i
 
 Introducir los conceptos básicos de SQL y la estructura de una base de datos
 
+
+### :brain: Círculo de estudio
+
+- [Diseño de una base de datos para calificaciones](circulo_estudio/README.md)
+
 ### 📚 Contenido
 
 - [1.1. Estructura de una base de datos](tema01/README.md)
