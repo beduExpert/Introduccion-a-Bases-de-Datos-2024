@@ -100,4 +100,4 @@ Este tipo de proyectos es crucial en el mundo de las bases de datos y la ciencia
 	- Fomenta la innovación y el desarrollo de nuevas tecnologías y métodos para el análisis y predicción de datos.
 
 
-[`Anterior`](../tema01/reto01/README.md) | [`Siguiente`](#)
+[`Anterior`](../tema01/reto01/README.md) | [`Siguiente`](../tema03/README.md)
