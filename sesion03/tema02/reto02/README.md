@@ -1,19 +1,46 @@
 [`Introducción a Bases de Datos`](../../../README.md) > [`Sesión 03`](../../README.md) > [`Subconsultas FROM`](../README.md)
 
-#### Reto 2
+# 🟡 RETO 2 — Detectives de pedidos
 
-##### Objetivos 🎯
+## Contexto
 
-- Demostrar cómo se pueden realizar subconsultas dentro de la cláusula `FROM`.
+La tienda quiere detectar pedidos que contienen productos que actualmente están agotados.
 
-##### Requisitos 📋
+## Tu misión
 
-- MySQL Workbench instalado.
+Obtén:
 
-##### Desarrollo 🚀
+* `pedido_id`
+* `fecha_pedido`
 
-**Consulta 1:**   
-Usando subconsultas dentro de la cláusula `FROM`, obten aquellas fechas donde la cantidad de pedidos haya sido mayor a 3.
+De los pedidos que contengan productos cuyo:
+`stock_disponible = 0`
+
+## Restricciones
+
+Debes utilizar:
+
+* ✅ `IN`
+* ✅ Una subconsulta
+* ✅ Y puedes necesitar más de una subconsulta
+
+## Pistas
+
+**Pista 1**
+Primero encuentra: ¿Qué productos están agotados?
+```sql
+SELECT producto_id
+FROM Productos
+WHERE stock_disponible = 0;
+```
+
+**Pista 2**
+Ahora pregunta: ¿Qué pedidos tienen esos productos?
+
+## SUPER BONUS 🔥🔥
+
+Intenta explicar tu consulta de adentro hacia afuera. No solamente ejecutes el código.
+
 
 
 [`Anterior`](../ejemplo02/README.md) | [`Siguiente`](../../tema03/README.md)
