@@ -19,10 +19,8 @@ De los pedidos que contengan productos cuyo:
 ## Restricciones
 
 Debes utilizar:
-
-* ✅ `IN`
 * ✅ Una subconsulta
-* ✅ Y puedes necesitar más de una subconsulta
+* ✅ Y puedes necesitar 1 o más de una subconsulta
 
 ## Pistas
 
