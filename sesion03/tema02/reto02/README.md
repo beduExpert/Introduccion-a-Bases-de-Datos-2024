@@ -4,7 +4,7 @@
 
 ## Contexto
 
-La tienda quiere detectar pedidos que contienen productos que actualmente están agotados.
+La tienda quiere detectar si hay pedidos que contienen productos que actualmente están agotados. 
 
 ## Tu misión
 
