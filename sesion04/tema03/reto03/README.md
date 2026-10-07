@@ -2,22 +2,24 @@
 
 #### Reto 3
 
-##### Objetivos 🎯
 
-- Practicar el uso de `UNION` e `UNION ALL` para combinar y comparar conjuntos de resultados en consultas SQL.
-
-- Comprender las diferencias entre `UNION` e `UNION ALL` y cuándo es apropiado utilizar cada uno.
 
 ##### Requisitos 📋
 
 - MySQL Workbench instalado.
 
 ##### Desarrollo 🚀
+Muestra el nombre de todos los usuarios, la cantidad de pedidos que han realizado y el total gastado.
+Los usuarios que nunca han realizado un pedido también deben aparecer.
 
-Ahora queremos saber cuáles productos han presentado poca venta. Para hacer esto podemos usar dos criterios:
-
-- Los que casi no se han vendido (su stock es mayor a 50).
-- Los que han tenido menos de 5 ventas en los pedidos.
+💡 Pistas
+Necesitas:
+- Usuarios
+- Pedidos
+- LEFT JOIN
+- COUNT()
+- SUM()
+- GROUP BY
 
 Usa `UNION` para combinar ambos criterios, luego usa `UNION ALL` ¿Cuál es la diferencia? ¿Cuál permite resolver este reto de forma correcta?
 
