@@ -16,13 +16,17 @@
 
 ##### Desarrollo 🚀
 
-Supón que quieres realizar un análisis detallado de los pedidos realizados por cada usuario, incluyendo información sobre los productos comprados.
+Muestra todos los usuarios y, si tienen pedidos, muestra también el pedido_id.
+Queremos que aparezcan incluso los usuarios que nunca han realizado un pedido.
+
+💡 Pista
+Necesitas:
+- Usuarios
+- Pedidos
+- LEFT JOIN
 
 **Ejercicio: LEFT JOIN para combinar usuarios, pedidos y detalles de pedidos**
-
-- Utiliza `LEFT JOIN` para combinar las tablas `Usuarios`, `Pedidos` y `Detalles_Pedido`, de manera que obtengas todos los registros de la tabla `Usuarios` y los registros coincidentes de las tablas `Pedidos` y `Detalles_Pedido`, si las hay.
-
-- Selecciona las columnas necesarias para obtener información sobre los usuarios, los pedidos y los detalles de los pedidos, como el nombre del usuario, la fecha del pedido, el nombre del producto y la cantidad comprada.
+as necesarias para obtener información sobre los usuarios, los pedidos y los detalles de los pedidos, como el nombre del usuario, la fecha del pedido, el nombre del producto y la cantidad comprada.
 
 - Utiliza `GROUP BY` para agrupar los resultados por usuario y fecha del pedido, y calcular el total de productos comprados por cada usuario en cada fecha.
 
